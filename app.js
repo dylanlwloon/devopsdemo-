@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res)) => {
+app.get('/', (req, res) => {
 	res.send("Shariot testing DevOps");
 });
-
+ 
 const port = process.env.port || 3000;
 
 app.listen(port, () => {
